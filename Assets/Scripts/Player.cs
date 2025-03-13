@@ -10,11 +10,15 @@ public class Player : MonoBehaviour
   public Transform shottingOffset;
   public float speed = 5f;
   public System.Action died;
+  public AudioSource shootSound;
+  public AudioSource deathSound;
+  public GameObject shootAnimationPrefab;
   
   Animator playerAnimator;
   Rigidbody2D rb;
 
   private bool bulletActive;
+  //private bool isDead;
   private Vector2 screenBounds;
   private float playerHalfWidth;
   
@@ -47,8 +51,10 @@ public class Player : MonoBehaviour
     if (died != null)
     {
       died.Invoke();
+      playerAnimator.SetTrigger("PlayerDied");
+      deathSound.Play();
     }
-    Destroy(gameObject);
+    Destroy(gameObject, 0.33f);
     //call reset level function
   }
 
@@ -59,9 +65,14 @@ public class Player : MonoBehaviour
       {
         if (!bulletActive)
         {
-          playerAnimator.SetTrigger("Shoot Trigger");
+          //playerAnimator.SetTrigger("Shoot Trigger");
           //Debug.Log("Bang!");
           Bullet shot = Instantiate(bulletPrefab, shottingOffset.position, Quaternion.identity);
+          shootSound.Play();
+          GameObject shootAnimationObject = Instantiate(shootAnimationPrefab, transform.position, transform.rotation, transform);
+          shootAnimationObject.transform.Rotate(new Vector3(0f, 0f, -90f));
+          shootAnimationObject.transform.localPosition = new Vector3(0f, 0.62f, 0f);
+          Destroy(shootAnimationObject, 0.25f);
           shot.destroyed += bulletDestroyed;
           bulletActive = true;
         }

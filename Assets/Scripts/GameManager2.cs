@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -11,6 +12,8 @@ public class GameManager2 : MonoBehaviour
     public Player playerPrefab;
     public TextMeshProUGUI GameOverText;
     public Invaders invaders;
+    public AudioSource backgroundMusic;
+    public float delay = 4f;
     
     private int score = 0;
     private int highScore;
@@ -31,6 +34,7 @@ public class GameManager2 : MonoBehaviour
         
         Enemy.OnEnemyDied += Scoring;
         Enemy.AlienShipDied += Scoring;
+        backgroundMusic.Play();
     }
 
     void OnDestroy()
@@ -41,7 +45,7 @@ public class GameManager2 : MonoBehaviour
 
     void gameOver_Defeat()
     {
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         
         if (score > highScore)
         {
@@ -52,13 +56,13 @@ public class GameManager2 : MonoBehaviour
             writer.Close();
         }
         
-        GameOverText.text = "GAME OVER, YOU LOSE! Would you like to play again?\n Press 'R' to play again.";
+        GameOverText.text = "GAME OVER, YOU LOSE!";
         gameOverCheck = true;
     }
 
     void gameOver_Victory()
     {
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         
         if (score > highScore)
         {
@@ -69,7 +73,7 @@ public class GameManager2 : MonoBehaviour
             writer.Close();
         }
         
-        GameOverText.text = "GAME OVER, YOU WIN! Would you like to play again?\n Press 'R' to play again.";
+        GameOverText.text = "GAME OVER, YOU WIN!";
         gameOverCheck = true;
         
     }
@@ -77,6 +81,13 @@ public class GameManager2 : MonoBehaviour
     void Scoring(int points)
     {
         score += points;
+    }
+
+    IEnumerator LoadCreditsAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        //Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     // Update is called once per frame
@@ -91,11 +102,12 @@ public class GameManager2 : MonoBehaviour
 
         if (gameOverCheck)
         {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                Time.timeScale = 1;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-            }
+            StartCoroutine(LoadCreditsAfterDelay(delay));
+            //if (Input.GetKeyDown(KeyCode.R))
+            //{
+            //    Time.timeScale = 1;
+            //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            //}
         }
         
         ScoreText.text = $"SCORE\n{score.ToString("0000")}";

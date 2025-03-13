@@ -12,6 +12,8 @@ public class Invaders : MonoBehaviour
     public float speed = 10f;
     public float shipSpeed = 10f;
     public float attackRate = 1f;
+    public AudioSource shootSound;
+    public AudioSource deathSound;
     
     public float totalEnemies;
     private Vector3 _direction = Vector2.right;
@@ -22,6 +24,7 @@ public class Invaders : MonoBehaviour
     void Start()
     {
         Enemy.OnEnemyDied += CountOnEnemyDied;
+        Enemy.AlienShipDied += AlienShipDied;
         for (int row = 0; row < rows; row++)
         {
             float width = 1f * (columns - 1);
@@ -44,12 +47,19 @@ public class Invaders : MonoBehaviour
     void OnDestroy()
     {
         Enemy.OnEnemyDied -= CountOnEnemyDied;
+        Enemy.AlienShipDied -= AlienShipDied;
     }
     
     void CountOnEnemyDied(int points)
     {
         totalEnemies -= 1;
         speed += speed * 0.04f;
+        deathSound.Play();
+    }
+
+    void AlienShipDied(int points)
+    {
+        deathSound.Play();
     }
 
     // Update is called once per frame
@@ -98,6 +108,7 @@ public class Invaders : MonoBehaviour
             if (Random.value < (1f / totalEnemies))
             {
                 Instantiate(bulletPrefab, enemy.position, Quaternion.identity);
+                shootSound.Play();
                 break;
             }
         }

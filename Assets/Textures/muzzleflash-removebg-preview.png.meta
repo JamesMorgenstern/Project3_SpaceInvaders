@@ -1,0 +1,843 @@
+fileFormatVersion: 2
+guid: 48215ae5d493f454cbde0073c7268db6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 348
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d01f616a5a2a724bad99511185b911a
+      internalID: -307117678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 359
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3babc5eb04c65a408ce0019574bc1c6
+      internalID: -1690288832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 350
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb0460929f15f44c858dbf58a0e54e5
+      internalID: 2077903631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 354
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa71c51e26afb242a6cd282c1da1866
+      internalID: 1627507264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 358
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1acaac36ed8e814a9e7a74e638943b9
+      internalID: -436891325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 348
+        width: 59
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bf5e4a4e305ba4bbe9587e9fda6930
+      internalID: -1355213896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 356
+        width: 58
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4460206602c775447b946e3bb4d58ced
+      internalID: 1300491676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 360
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33742a7b95968a4385d1d111c7a17ba
+      internalID: 1919306884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 242
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e54b28599866e74a90ccd8f49cfbb42
+      internalID: -1605554790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 255
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d28018973b39e347990b7e1b049a857
+      internalID: -1484876870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 244
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0b6773a3e43c04eac238dcdffcf01e
+      internalID: -1939952960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 247
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7224234d7ee149b43a45a46fa091e1c4
+      internalID: -533054839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 251
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54bb2f6c33ea2e45b15d85f5a5150c6
+      internalID: -900253308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 253
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5311006b4d8b844a59b8267ff33a1c
+      internalID: 532069068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 259
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6884761e5185c6540bc370ffc991bcdd
+      internalID: -1329409153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 251
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1524d750764e7439cd9667edf2cbb9
+      internalID: -1977501687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 145
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4335b6a21bb01014d9ebc0c73303b88a
+      internalID: 2002853039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 145
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee0b9538f6d6cf4594f4b63ddb0faad
+      internalID: 729202706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 152
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51491bf622420644aa2d53a2d9a9213
+      internalID: -1311964078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 153
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568863ce875f3c24e9b5dbd82dfa78bf
+      internalID: -830429171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 145
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e1be87dc9d74642a0f25f3cecd7688
+      internalID: -2129624000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 147
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6862a9554f4d09147b4f9426a25f6ee2
+      internalID: 583370795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 145
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339a17811a361194997f31d74177818a
+      internalID: 2146069487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 150
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e39aa562599c2f45aecd6392875e7e8
+      internalID: 1897641416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 44
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d90e8fa255e654b9c27310d126afc3
+      internalID: 1933743099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 46
+        width: 50
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef0e2c4221f0094bad052a2db3ac227
+      internalID: 259425928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 45
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203991e2b6576a2409fb9ffc361cd9a8
+      internalID: 1926902826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 45
+        width: 51
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5395fa2f05bde14fad8ba8191289634
+      internalID: 734461674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 46
+        width: 51
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9266f5bca88ba1240ade9dbf97902789
+      internalID: -1946511122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 48
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d4a3c4a1e9f694db55477bab031eee
+      internalID: 577768193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzleflash-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 43
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c29d97efd847dd44af1d1eb0f91276b
+      internalID: 1458895102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a895f1eca7b1294428ded9550babef9e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      muzzleflash-removebg-preview_0: -307117678
+      muzzleflash-removebg-preview_1: -1690288832
+      muzzleflash-removebg-preview_10: -1939952960
+      muzzleflash-removebg-preview_11: -533054839
+      muzzleflash-removebg-preview_12: -900253308
+      muzzleflash-removebg-preview_13: 532069068
+      muzzleflash-removebg-preview_14: -1329409153
+      muzzleflash-removebg-preview_15: -1977501687
+      muzzleflash-removebg-preview_16: 2002853039
+      muzzleflash-removebg-preview_17: 729202706
+      muzzleflash-removebg-preview_18: -1311964078
+      muzzleflash-removebg-preview_19: -830429171
+      muzzleflash-removebg-preview_2: 2077903631
+      muzzleflash-removebg-preview_20: -2129624000
+      muzzleflash-removebg-preview_21: 583370795
+      muzzleflash-removebg-preview_22: 2146069487
+      muzzleflash-removebg-preview_23: 1897641416
+      muzzleflash-removebg-preview_24: 1933743099
+      muzzleflash-removebg-preview_25: 259425928
+      muzzleflash-removebg-preview_26: 1926902826
+      muzzleflash-removebg-preview_27: 734461674
+      muzzleflash-removebg-preview_28: -1946511122
+      muzzleflash-removebg-preview_29: 577768193
+      muzzleflash-removebg-preview_3: 1627507264
+      muzzleflash-removebg-preview_30: 1458895102
+      muzzleflash-removebg-preview_4: -436891325
+      muzzleflash-removebg-preview_5: -1355213896
+      muzzleflash-removebg-preview_6: 1300491676
+      muzzleflash-removebg-preview_7: 1919306884
+      muzzleflash-removebg-preview_8: -1605554790
+      muzzleflash-removebg-preview_9: -1484876870
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
